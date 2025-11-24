@@ -1,0 +1,62 @@
+ Modelo Lógico
+
+O modelo lógico representa a estrutura das tabelas do banco de dados, incluindo atributos, tipos de dados e chaves primárias e estrangeiras.
+
+
+
+Tabela: cliente
+
+
+| Atributo    | Tipo de Dado     | Chave |
+|-------------|------------------|--------|
+| id_cliente  | SERIAL / Inteiro | PK     |
+| nome        | VARCHAR(100)     |        |
+| telefone    | VARCHAR(20)      |        |
+| email       | VARCHAR(100)     |        |
+| endereco    | VARCHAR(200)     |        |
+
+
+Tabela: produto
+
+
+| Atributo     | Tipo de Dado     | Chave |
+|--------------|------------------|--------|
+| id_produto   | SERIAL / Inteiro | PK     |
+| nome         | VARCHAR(100)     |        |
+| descricao    | VARCHAR(200)     |        |
+| preco        | NUMERIC(10,2)    |        |
+
+
+
+
+ Tabela: pedido
+| Atributo     | Tipo de Dado     | Chave |
+|--------------|------------------|--------|
+| id_pedido    | SERIAL / Inteiro | PK     |
+| id_cliente   | INT              | FK → cliente(id_cliente) |
+| data_pedido  | DATE             |        |
+| valor_total  | NUMERIC(10,2)    |        |
+
+
+
+ Tabela: item_pedido
+| Atributo        | Tipo de Dado     | Chave |
+|-----------------|------------------|--------|
+| id_item         | SERIAL / Inteiro | PK     |
+| id_pedido       | INT              | FK → pedido(id_pedido) |
+| id_produto      | INT              | FK → produto(id_produto) |
+| quantidade      | INT              |        |
+| preco_unitario  | NUMERIC(10,2)    |        |
+
+
+
+
+ Tabela: pagamento
+| Atributo        | Tipo de Dado     | Chave |
+|-----------------|------------------|--------|
+| id_pagamento    | SERIAL / Inteiro | PK     |
+| id_pedido       | INT              | FK → pedido(id_pedido) |
+| data_pagamento  | DATE             |        |
+| valor_pago      | NUMERIC(10,2)    |        |
+| forma_pagamento | VARCHAR(50)      |        |
+

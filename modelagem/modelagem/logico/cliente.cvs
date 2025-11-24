@@ -1,0 +1,16 @@
+id_cliente,nome,telefone,email,endereco
+1,Carlos Almeida,35998880011,carlos.almeida@gmail.com,Rua das Flores 120
+2,Ana Beatriz Faria,35992114578,ana.faria@hotmail.com,Rua Castro Alves 55
+3,Marcos Henrique Silva,35999447721,marcos.hsilva@yahoo.com,Avenida João Pinheiro 300
+4,Juliana Souza,35991553322,juliana.souza@gmail.com,Rua Rio Grande 82
+5,Paulo Roberto Lima,35998112266,paulo.lima@gmail.com,Rua Buenos Aires 20
+6,Daniela Machado,35991334455,daniela.machado@gmail.com,Rua Pitangueiras 44
+7,Fernando Rocha,35992887766,fernando.rocha@hotmail.com,Rua Goiás 10
+8,Patrícia Morais,35991660099,patricia.morais@gmail.com,Rua Vicente Celestino 9
+9,Ricardo Azevedo,35992223344,ricardo.azevedo@yahoo.com,Avenida Minas Gerais 210
+10,Larissa Tavares,35991449933,larissa.tavares@gmail.com,Rua Rio Grande do Sul 77
+11,André Moreira,35991336655,andre.moreira@gmail.com,Rua Ouro Preto 18
+12,Helena Borges,35999778800,helena.borges@yahoo.com,Avenida Prefeito Chagas 999
+13,Gabriel Mendes,35991881144,gabriel.mendes@hotmail.com,Rua Santa Catarina 55
+14,Sofia Carvalho,35991112233,sofia.carvalho@gmail.com,Rua Presidente Vargas 188
+15,Lucas Ribeiro,35992335577,lucas.ribeiro@gmail.com,Rua Junqueiras 412
